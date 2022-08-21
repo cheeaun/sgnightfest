@@ -1,0 +1,157 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#map {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#app {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #0003;
+  backdrop-filter: blur(10px) saturate(180%);
+  max-width: 85vw;
+  overflow-x: scroll;
+  transition: transform 0.3s ease-in-out;
+  padding: 48px 10px;
+  color: #fff;
+}
+#app.closed {
+  transform: translateX(-100%);
+}
+
+#app a {
+  color: #fff;
+}
+
+#app h2 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+#app ol h3, #app ol p {
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+#app ol p {
+  font-size: 0.8em;
+  opacity: .75;
+}
+
+#app ol {
+  margin: 0;
+  padding: 0 0 0 1.5em;
+}
+
+#app ol li {
+  margin-bottom: .75em;
+  cursor: pointer;
+}
+#app ol li * {
+  pointer-events: none;
+}
+#app ol li:hover * {
+  color: #fff;
+}
+
+#app hr {
+  border: 0;
+  border-top: 1px solid #fff3;
+  margin: 2em 0;
+}
+
+#app dl dt {
+  font-weight: bold;
+}
+#app dl dd {
+  margin: 0;
+  line-height: 2em;
+}
+#app dl dd button {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 999px;
+  border: 0;
+  background-image: none;
+  appearance: none;
+  margin: 0;
+  padding: 2px 4px;
+  min-width: 24px;
+  min-height: 24px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#app footer {
+  background-color: #000a;
+  padding: 1em;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  font-size: 32px;
+  margin: 0;
+  padding: 10px;
+  background-color: #0003;
+  backdrop-filter: blur(10px) saturate(180%);
+  cursor: pointer;
+  color: #fffa;
+  font-weight: normal;
+}
+h1:hover {
+  color: #fff;
+}
+
+#close-menu {
+  position: sticky;
+  float: right;
+  top: -48px;
+  font-size: 32px;
+  background-color: transparent;
+  border: none;
+  background-image: none;
+  appearance: none;
+  padding: 12px 16px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+}
+#close-menu:hover {
+  opacity: 0.75;
+}
+
+/* Larger screen */
+@media (min-width: 768px) {
+  #map {
+    left: 320px;
+  }
+  #app {
+    width: 320px;
+    transform: translateX(0) !important;
+    background-color: #222;
+  }
+  #close-menu {
+    display: none;
+  }
+}

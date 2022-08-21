@@ -1,0 +1,503 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.852319, 1.2935846]
+      },
+      "properties": {
+        "name": "An Ocean Without\nThe Anchor",
+        "number": 1,
+        "category": "Night Lights",
+        "description": "by Speak Cryptic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8520416, 1.2938433]
+      },
+      "properties": {
+        "name": "Paddy Fields",
+        "number": 2,
+        "category": "Night Lights",
+        "description": "by FARM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8490611, 1.2930337]
+      },
+      "properties": {
+        "name": "latent (BBB edition)",
+        "number": 3,
+        "category": "Night Lights",
+        "description": "by Chok Si Xuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8493394, 1.2962692]
+      },
+      "properties": {
+        "name": "We can no longer be\nstrangers after this",
+        "number": 4,
+        "category": "Night Lights",
+        "description": "by Perception3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8482396, 1.2967721]
+      },
+      "properties": {
+        "name": "Steps (2022)",
+        "number": 5,
+        "category": "Night Lights",
+        "description": "by Victoria Hertel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8476851, 1.2958068]
+      },
+      "properties": {
+        "name": "tobyato bird pitstop",
+        "number": 6,
+        "category": "Night Lights",
+        "description": "by tobyato"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8462601, 1.2966583]
+      },
+      "properties": {
+        "name": "Tunnel Graffiti",
+        "number": 7,
+        "category": "Night Lights",
+        "description": "by Lynette Quek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.846134, 1.2967857]
+      },
+      "properties": {
+        "name": "Under My Tree Roof",
+        "number": 8,
+        "category": "Night Lights",
+        "description": "by Chloë Manasseh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8500485, 1.2962646]
+      },
+      "properties": {
+        "name": "Fècundus",
+        "number": 9,
+        "category": "Night Lights",
+        "description": "by Twardzik Ching\nChor Leng"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8525225, 1.2985175]
+      },
+      "properties": {
+        "name": "NOCTURNE:\nConversations",
+        "number": 10,
+        "category": "Night Lights",
+        "description": "with Waterloo\nby Nhawfal Juma'at"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8526045, 1.299964]
+      },
+      "properties": {
+        "name": "Celebration\nof Life+Style",
+        "number": 11,
+        "category": "Night Lights",
+        "description": "by Justin Lee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8531633, 1.2971342]
+      },
+      "properties": {
+        "name": "City of Books",
+        "number": 12,
+        "category": "Night Lights",
+        "description": "by Fish Jaafar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [103.8489784, 1.29631] },
+      "properties": {
+        "name": "#SGNIGHTFEST",
+        "number": 13,
+        "category": "Night Lights",
+        "description": "by Pan-United"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8497149, 1.2948571]
+      },
+      "properties": {
+        "name": "PALIMPSEST",
+        "number": 14,
+        "category": "Night Lights",
+        "description": "by William Chan\nand Brandon Tay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8535933, 1.2984705]
+      },
+      "properties": {
+        "name": "TERRARIUM",
+        "number": 15,
+        "category": "Night Lights",
+        "description": "by Aux Media Group,\nBinary Style,\nPAPERSYNTHESIS and\nBIOS: Living NFTs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8512232, 1.2930146]
+      },
+      "properties": {
+        "name": "Jazz'in @ Capitol\nSingapore",
+        "number": 16,
+        "category": "Performances"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8502811, 1.2965683]
+      },
+      "properties": {
+        "name": "Groovy Town\n@ SMU",
+        "number": 17,
+        "category": "Performances"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8518323, 1.2989236]
+      },
+      "properties": {
+        "name": "Discoloo\nCentre",
+        "number": 18,
+        "category": "Performances"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8502854, 1.2963223]
+      },
+      "properties": {
+        "name": "Yesterday\nOnce More:\nQueen Street",
+        "number": 19,
+        "category": "Performances"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8492789, 1.2939475]
+      },
+      "properties": {
+        "name": "Armenian\nStreet Party",
+        "number": 20,
+        "category": "Performances"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [103.847963, 1.298448] },
+      "properties": {
+        "name": "Cathay Hotel:\nThe Curse of the\nMissing Red Shoe\nby Vertical\nSubmarine",
+        "number": 21,
+        "category": "Highlight Act"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8529167, 1.2951109]
+      },
+      "properties": {
+        "name": "Through Worlds",
+        "number": 22,
+        "category": "Projection Mapping",
+        "description": "by Jo Ho &\nIntriguant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [103.850203, 1.2946] },
+      "properties": {
+        "name": "Glitches of You, The Melting Pot, Madeleine",
+        "number": 23,
+        "category": "Projection Mapping",
+        "description": "Glitches of You by Amanda Tan\nThe Melting Pot by Adeline Tan & Benedict Teo\nMadeleine by Lueur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8483314, 1.2936778]
+      },
+      "properties": {
+        "name": "Midnight Show\nat the Capitol",
+        "number": 24,
+        "category": "Projection Mapping",
+        "description": "by MOJOKO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8488845, 1.2967119]
+      },
+      "properties": {
+        "name": "Stories from\nForbidden Hill",
+        "number": 25,
+        "category": "Projection Mapping",
+        "description": "by Maxin10sity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8543082, 1.3006446]
+      },
+      "properties": {
+        "name": "Explore SG\nNight Fest with\nTrishaw Uncle",
+        "number": 26,
+        "category": "Experiential Programmes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8538233, 1.3014411]
+      },
+      "properties": {
+        "name": "SG Night Fest\nFood Tour",
+        "number": 27,
+        "category": "Experiential Programmes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8492482, 1.2962914]
+      },
+      "properties": {
+        "name": "After Hours @\nMy Bras Basah\nwith May Hui",
+        "number": 28,
+        "category": "Experiential Programmes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8492831, 1.2964442]
+      },
+      "properties": {
+        "name": "Heat Of The Night",
+        "number": 29,
+        "category": "Experiential Programmes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8518286, 1.2934493]
+      },
+      "properties": {
+        "name": "Hopscotch",
+        "number": 30,
+        "category": "Bbbooze O'clock Powered By Sui Gin Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8545795, 1.2962704]
+      },
+      "properties": {
+        "name": "Vertigo26",
+        "number": 31,
+        "category": "Bbbooze O'clock Powered By Sui Gin Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8518396, 1.294927]
+      },
+      "properties": {
+        "name": "Analogue",
+        "number": 32,
+        "category": "Bbbooze O'clock Powered By Sui Gin Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8496711, 1.2992912]
+      },
+      "properties": {
+        "name": "Mama Diam",
+        "number": 33,
+        "category": "Bbbooze O'clock Powered By Sui Gin Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8465936, 1.2986203]
+      },
+      "properties": {
+        "name": "GudSht",
+        "number": 34,
+        "category": "Bbbooze O'clock Powered By Sui Gin Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8464467, 1.2981885]
+      },
+      "properties": {
+        "name": "After Dark @\nDhoby Ghaut\nGreen",
+        "category": "Festival Villages"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [103.849189, 1.296384] },
+      "properties": {
+        "name": "Information",
+        "category": "Information",
+        "zindex": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8453614, 1.2985541]
+      },
+      "properties": {
+        "name": "Information",
+        "category": "Information",
+        "zindex": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8498163, 1.2948377]
+      },
+      "properties": {
+        "name": "Information",
+        "category": "Information",
+        "zindex": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8489239, 1.2929228]
+      },
+      "properties": {
+        "name": "First Aid Point",
+        "category": "First Aid Point",
+        "zindex": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8477985, 1.2970585]
+      },
+      "properties": {
+        "name": "First Aid Point",
+        "category": "First Aid Point",
+        "zindex": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8531803, 1.3002451]
+      },
+      "properties": {
+        "name": "First Aid Point",
+        "category": "First Aid Point",
+        "zindex": -1
+      }
+    }
+  ]
+}

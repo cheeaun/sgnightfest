@@ -1,0 +1,17 @@
+{
+  "name": "sgnightfest",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "~3.0.7"
+  },
+  "dependencies": {
+    "color2k": "~2.0.0",
+    "maplibre-gl": "~2.3.0"
+  }
+}
