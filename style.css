@@ -111,7 +111,7 @@ h1 {
   top: 0;
   left: 0;
   z-index: 2;
-  font-size: 32px;
+  font-size: 30px;
   margin: 0;
   padding: 10px;
   background-color: #0003;
@@ -127,7 +127,7 @@ h1:hover {
 #close-menu {
   position: sticky;
   float: right;
-  top: -48px;
+  top: 0;
   font-size: 32px;
   background-color: transparent;
   border: none;
