@@ -25,7 +25,7 @@ body {
   bottom: 0;
   z-index: 1;
   background-color: #0003;
-  backdrop-filter: blur(10px) saturate(180%);
+  backdrop-filter: blur(14px) saturate(3);
   max-width: 85vw;
   overflow-x: scroll;
   transition: transform 0.3s ease-in-out;
