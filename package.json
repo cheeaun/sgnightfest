@@ -8,10 +8,16 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "~10.4.8",
     "vite": "~3.0.7"
   },
   "dependencies": {
     "color2k": "~2.0.0",
     "maplibre-gl": "~2.3.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   }
 }
