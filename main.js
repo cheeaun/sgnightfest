@@ -122,6 +122,8 @@ map.on('load', () => {
       'text-ignore-placement': true,
       'text-field': [
         'case',
+        ['==', ['get', 'category'], 'Festival Villages'],
+        '@',
         ['==', ['get', 'category'], 'Information'],
         'i',
         ['==', ['get', 'category'], 'First Aid Point'],
