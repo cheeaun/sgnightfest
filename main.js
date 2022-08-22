@@ -282,6 +282,6 @@ map.on('load', () => {
 
   document.getElementsByTagName('h1')[0].addEventListener('click', (e) => {
     e.preventDefault();
-    $app.classList.remove('closed');
+    $app.classList.toggle('closed');
   });
 });

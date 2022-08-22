@@ -43,6 +43,7 @@ body {
 #app h2 {
   font-size: 1.1em;
   text-transform: uppercase;
+  text-shadow: 0 -1px #000;
 }
 
 #app ol h3, #app ol p {
@@ -78,6 +79,9 @@ body {
   margin: 2em 0;
 }
 
+#app dl {
+  margin: 1.5em 0;
+}
 #app dl dt {
   font-weight: bold;
 }
@@ -111,7 +115,7 @@ h1 {
   top: 0;
   left: 0;
   z-index: 2;
-  font-size: 30px;
+  font-size: 24px;
   margin: 0;
   padding: 10px;
   background-color: #0003;
@@ -122,6 +126,12 @@ h1 {
 }
 h1:hover {
   color: #fff;
+}
+h1:before {
+  content: '☰';
+  display: inline-block;
+  vertical-align: top;
+  margin-right: .5em;
 }
 
 #close-menu {
