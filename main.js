@@ -267,6 +267,9 @@ map.on('load', () => {
       map.on('movestart', () => {
         $app.classList.add('closed');
       });
+      map.on('mousedown', () => {
+        $app.classList.add('closed');
+      });
 
       $app.addEventListener('click', (e) => {
         const $target = e.target;
