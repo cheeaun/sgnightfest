@@ -1,13 +1,13 @@
 import './style.css';
 import maplibregl from 'maplibre-gl';
-import { lighten, darken, transparentize } from 'color2k';
+import { lighten, transparentize } from 'color2k';
 
 const apiKey = import.meta.env.VITE_ARCGIS_TOKEN;
 const basemapEnum = 'a9a842b3eec14a60a913ed718d19b957';
 const dataPath = './sgnightfest.geo.json?v1';
 
 const light = (color) => lighten(color, 0.25);
-const border = (color) => transparentize(darken(color, 0.3), 0.25);
+const border = (color) => transparentize(lighten(color, 0.1), 0.75);
 
 const category2colorMapping = {
   'Night Lights': '#ed1c25',
@@ -33,9 +33,15 @@ const $app = document.getElementById('app');
 const map = new maplibregl.Map({
   container: 'map',
   style: `https://basemaps-api.arcgis.com/arcgis/rest/services/styles/${basemapEnum}?type=style&token=${apiKey}`,
-  center: [103.85028, 1.29656],
-  zoom: 14,
+  // center: [103.85028, 1.29656],
+  // zoom: 14,
+  bounds: [
+    [103.8453614, 1.2929228],
+    [103.8545795, 1.3014411],
+  ],
+  fitBoundsOptions: { padding: 100 },
   attributionControl: false,
+  minZoom: 12,
 });
 map.addControl(new maplibregl.NavigationControl());
 map.addControl(
@@ -105,7 +111,7 @@ map.on('load', () => {
         13,
         1,
         16,
-        3,
+        16,
       ],
       'circle-opacity': ['case', ['==', ['get', 'zindex'], -1], 0.45, 1],
     },
@@ -204,6 +210,8 @@ map.on('load', () => {
   fetch(dataPath)
     .then((res) => res.json())
     .then((data) => {
+      const bounds = new maplibregl.LngLatBounds();
+
       // Group data in categories
       const catData = {};
       data.features.forEach((feature) => {
@@ -212,8 +220,9 @@ map.on('load', () => {
           catData[category] = [];
         }
         catData[category].push(feature);
+        bounds.extend(feature.geometry.coordinates);
       });
-      console.log({ catData });
+      console.log({ catData, bounds: bounds.toArray() });
 
       $app.innerHTML = `
         <button type="button" id="close-menu">×</button>

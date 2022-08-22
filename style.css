@@ -72,6 +72,13 @@ body {
 #app ol li:hover * {
   color: #fff;
 }
+#app ol li h3::after {
+  content: ' →';
+  opacity: .5;
+}
+#app ol li:hover h3::after {
+  opacity: 1;
+}
 
 #app hr {
   border: 0;
@@ -83,7 +90,8 @@ body {
   margin: 1.5em 0;
 }
 #app dl dt {
-  font-weight: bold;
+  font-size: 0.9em;
+  text-transform: uppercase;
 }
 #app dl dd {
   margin: 0;
@@ -97,12 +105,15 @@ body {
   background-image: none;
   appearance: none;
   margin: 0;
-  padding: 2px 4px;
+  padding: 0;
   min-width: 24px;
   min-height: 24px;
   line-height: 20px;
   text-align: center;
   cursor: pointer;
+}
+#app dl dd button:hover {
+  box-shadow: 0 0 0 10px #fff3;
 }
 
 #app footer {
