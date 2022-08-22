@@ -29,7 +29,7 @@ body {
   max-width: 85vw;
   overflow-x: scroll;
   transition: transform 0.3s ease-in-out;
-  padding: 48px 10px;
+  padding: 48px 10px 0;
   color: #fff;
 }
 #app.closed {
@@ -106,8 +106,17 @@ body {
 }
 
 #app footer {
+  position: sticky;
+  bottom: 0;
   background-color: #000a;
+  backdrop-filter: blur(10px) saturate(180%);
   padding: 1em;
+  margin: 0 -10px -48px;
+  font-size: 0.8em;
+}
+#app footer p {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {

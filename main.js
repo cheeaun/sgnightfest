@@ -250,12 +250,7 @@ map.on('load', () => {
           )
           .join('')}
         <footer>
-          <p>Warning: Data here may not be accurate. Latest accurate info from <a href="https://www.nightfestival.gov.sg/">nightfestival.gov.sg</a></p>
-          <p>
-            <a href="https://www.nightfestival.gov.sg/festival-map">Official Festival Map</a> &middot;
-            <a href="https://www.nightfestival.gov.sg/-/media/Snf2022/SNF2022FestivalMap.pdf">Map PDF</a> &middot;
-            <a href="https://www.nightfestival.gov.sg/content/faq">FAQ</a>
-          </p>
+          <p>Warning: Data here may not be accurate, scraped from the <a href="https://www.nightfestival.gov.sg/-/media/Snf2022/SNF2022FestivalMap.pdf">Map PDF</a>. Latest accurate info from <a href="https://www.nightfestival.gov.sg/">nightfestival.gov.sg</a></p>
           </footer>
       `;
 
