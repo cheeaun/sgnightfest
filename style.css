@@ -46,37 +46,45 @@ body {
   text-shadow: 0 -1px #000;
 }
 
-#app ol h3, #app ol p {
+#app ol h3, #app ol p,
+#app ul h3, #app ul p {
   color: #eee;
   margin: 0;
   padding: 0;
   font-size: 1em;
 }
-#app ol p {
+#app ol p,
+#app ul p {
   font-size: 0.8em;
   opacity: .75;
 }
 
-#app ol {
+#app ol,
+#app ul {
   margin: 0;
   padding: 0 0 0 1.5em;
 }
 
-#app ol li {
+#app ol li,
+#app ul li {
   margin-bottom: .75em;
   cursor: pointer;
 }
-#app ol li * {
+#app ol li *,
+#app ul li * {
   pointer-events: none;
 }
-#app ol li:hover * {
+#app ol li:hover *,
+#app ul li:hover * {
   color: #fff;
 }
-#app ol li h3::after {
+#app ol li h3::after,
+#app ul li h3::after {
   content: ' →';
   opacity: .5;
 }
-#app ol li:hover h3::after {
+#app ol li:hover h3::after,
+#app ul li:hover h3::after {
   opacity: 1;
 }
 

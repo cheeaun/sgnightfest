@@ -183,11 +183,13 @@ map.on('load', () => {
 
   function genListHTML(cat, catData) {
     const data = catData[cat];
+    const { number } = data[0].properties;
+    const listTag = number ? 'ol' : 'ul';
     return `
       <h2 style="color: ${
         category2colorMapping[data[0].properties.category]
       }">${cat}</h2>
-      <ol start="${data[0].properties.number}">
+      <${listTag} start="${data[0].properties.number}">
         ${data
           .map(
             ({
@@ -203,7 +205,7 @@ map.on('load', () => {
         `,
           )
           .join('')}
-      </ol>
+      </${listTag}>
     `;
   }
 
@@ -232,6 +234,7 @@ map.on('load', () => {
         ${genListHTML('Projection Mapping', catData)}
         ${genListHTML('Experiential Programmes', catData)}
         ${genListHTML("Bbbooze O'clock Powered By Sui Gin Bars", catData)}
+        ${genListHTML('Festival Villages', catData)}
         <hr>
         <h2>Curated walk routes</h2>
         ${curatedRoutes
