@@ -9,6 +9,11 @@ const dataPath = './sgnightfest.geo.json?v1';
 const light = (color) => lighten(color, 0.25);
 const border = (color) => transparentize(lighten(color, 0.1), 0.75);
 
+console.log(
+  `%cHello there 👋. Source code here: https://github.com/cheeaun/sgnightfest`,
+  'font-size: 1.5em; font-weight: bold;',
+);
+
 const category2colorMapping = {
   'Night Lights': '#ed1c25',
   Performances: '#7da193',
