@@ -115,7 +115,7 @@
         "name": "Fècundus",
         "number": 9,
         "category": "Night Lights",
-        "description": "by Twardzik Ching\nChor Leng"
+        "description": "by Twardzik Ching Chor Leng"
       }
     },
     {
@@ -128,7 +128,7 @@
         "name": "NOCTURNE: Conversations",
         "number": 10,
         "category": "Night Lights",
-        "description": "with Waterloo\nby Nhawfal Juma'at"
+        "description": "with Waterloo by Nhawfal Juma'at"
       }
     },
     {
@@ -177,7 +177,7 @@
         "name": "PALIMPSEST",
         "number": 14,
         "category": "Night Lights",
-        "description": "by William Chan\nand Brandon Tay"
+        "description": "by William Chan and Brandon Tay"
       }
     },
     {
@@ -190,7 +190,7 @@
         "name": "TERRARIUM",
         "number": 15,
         "category": "Night Lights",
-        "description": "by Aux Media Group,\nBinary Style,\nPAPERSYNTHESIS and\nBIOS: Living NFTs"
+        "description": "by Aux Media Group, Binary Style, PAPERSYNTHESIS and BIOS: Living NFTs"
       }
     },
     {
@@ -257,7 +257,8 @@
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [103.8479709, 1.298533] },
       "properties": {
-        "name": "Cathay Hotel: The Curse of the Missing Red Shoe\nby Vertical Submarine",
+        "name": "Cathay Hotel: The Curse of the Missing Red Shoe",
+        "description": "by Vertical Submarine",
         "number": 21,
         "category": "Highlight Act"
       }
@@ -272,7 +273,7 @@
         "name": "Through Worlds",
         "number": 22,
         "category": "Projection Mapping",
-        "description": "by Jo Ho &\nIntriguant"
+        "description": "by Jo Ho & Intriguant"
       }
     },
     {
