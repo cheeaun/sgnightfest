@@ -159,7 +159,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.8489653, 1.2964849] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8489653, 1.2964849]
+      },
       "properties": {
         "name": "#SGNIGHTFEST",
         "number": 13,
@@ -255,7 +258,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.8479709, 1.298533] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8479709, 1.298533]
+      },
       "properties": {
         "name": "Cathay Hotel: The Curse of the Missing Red Shoe",
         "description": "by Vertical Submarine",
@@ -278,7 +284,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.8508489, 1.2945395] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8508489, 1.2945395]
+      },
       "properties": {
         "name": "Glitches of You, The Melting Pot, Madeleine",
         "number": 23,
@@ -433,7 +442,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.849189, 1.296384] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.849189, 1.296384]
+      },
       "properties": {
         "name": "Information",
         "category": "Information",
@@ -498,6 +510,41 @@
         "name": "First Aid Point",
         "category": "First Aid Point",
         "zindex": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Code of Silence (Fort Canning Escape Game)",
+        "number": "",
+        "category": "Experiential Programmes",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8460902693144, 1.2964399783263163]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trash Terrarium",
+        "category": "Experiential Programmes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.85336788211805, 1.2986856829231028]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Light Up - The Peranakan Museum",
+        "category": "Others"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.84895, 1.29421]
       }
     }
   ]
