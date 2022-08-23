@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fetch-festival-map": "curl https://www.nightfestival.gov.sg/custom/snf2022/api/handlers/SnfMapHandler.ashx -X POST --output public/festival-map.raw.json"
   },
   "devDependencies": {
     "autoprefixer": "~10.4.8",
