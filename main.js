@@ -24,6 +24,7 @@ const category2colorMapping = {
   'Festival Villages': '#64bde1',
   Information: '#888',
   'First Aid Point': '#ed1a2d',
+  Others: '#888',
 };
 
 const curatedRoutes = [
@@ -199,11 +200,11 @@ map.on('load', () => {
           .map(
             ({
               geometry: { coordinates },
-              properties: { name, description, category },
+              properties: { name, description, category, number },
             }) => `
-          <li style="color: ${
-            category2colorMapping[category]
-          }" data-coords="${coordinates}">
+          <li style="color: ${category2colorMapping[category]}; ${
+              !number ? 'list-style-type: disc' : ''
+            }" data-coords="${coordinates}">
             <h3>${name}</h3>
             ${description ? `<p>${description.replace(/\n/g, '<br>')}</p>` : ''}
           </li>
@@ -240,6 +241,8 @@ map.on('load', () => {
         ${genListHTML('Experiential Programmes', catData)}
         ${genListHTML("Bbbooze O'clock Powered By Sui Gin Bars", catData)}
         ${genListHTML('Festival Villages', catData)}
+        ${genListHTML('Others', catData)}
+        <a href="https://www.nightfestival.gov.sg/whats-on" target="_blank" class="more">More details and events listed on the official Singapore Night Festival site!</a>
         <hr>
         <h2>Curated walk routes</h2>
         ${curatedRoutes

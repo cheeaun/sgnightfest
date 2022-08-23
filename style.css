@@ -180,6 +180,29 @@ h1:before {
   opacity: 0.75;
 }
 
+a.more {
+  margin-top: 24px;
+  background-color: rgba(60, 131, 255, 0.4);
+  font-weight: bold;
+  padding: 1em 2em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 999px;
+}
+a.more:hover {
+  background-color: rgba(60, 131, 255, 0.8);
+}
+a.more:after {
+  content: ' →';
+  display: inline-block;
+  transform: rotate(-45deg);
+  opacity: .5;
+}
+a.more:hover:after {
+  opacity: 1;
+}
+
 /* Larger screen */
 @media (min-width: 768px) {
   #map {
