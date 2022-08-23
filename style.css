@@ -190,6 +190,12 @@ h1:before {
     transform: translateX(0) !important;
     background-color: #222;
   }
+  h1 {
+    pointer-events: none;
+  }
+  h1:before {
+    content: '';
+  }
   #close-menu {
     display: none;
   }
