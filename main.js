@@ -161,7 +161,7 @@ map.on('load', () => {
       ],
       'text-font': ['Noto Sans Bold'],
       'text-size': 12,
-      'text-variable-anchor': ['left', 'right'],
+      'text-variable-anchor': ['left', 'right', 'top'],
       'text-radial-offset': 1.3,
       'text-justify': 'auto',
       'symbol-sort-key': ['get', 'zindex'],
