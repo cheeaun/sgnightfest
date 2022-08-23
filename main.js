@@ -4,7 +4,7 @@ import { lighten, transparentize } from 'color2k';
 
 const apiKey = import.meta.env.VITE_ARCGIS_TOKEN;
 const basemapEnum = 'a9a842b3eec14a60a913ed718d19b957';
-const dataPath = './sgnightfest.geo.json?v2';
+const dataPath = './sgnightfest.geo.json?v3';
 
 const light = (color) => lighten(color, 0.25);
 const border = (color) => transparentize(lighten(color, 0.1), 0.75);
