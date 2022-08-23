@@ -5,10 +5,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.852319, 1.2935846]
+        "coordinates": [103.8524254, 1.2936097]
       },
       "properties": {
-        "name": "An Ocean Without\nThe Anchor",
+        "name": "An Ocean Without The Anchor",
         "number": 1,
         "category": "Night Lights",
         "description": "by Speak Cryptic"
@@ -18,7 +18,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8520416, 1.2938433]
+        "coordinates": [103.85190098531228, 1.293894248563846]
       },
       "properties": {
         "name": "Paddy Fields",
@@ -31,7 +31,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8490611, 1.2930337]
+        "coordinates": [103.8491155, 1.2931793]
       },
       "properties": {
         "name": "latent (BBB edition)",
@@ -44,10 +44,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8493394, 1.2962692]
+        "coordinates": [103.8491514, 1.296255]
       },
       "properties": {
-        "name": "We can no longer be\nstrangers after this",
+        "name": "We can no longer be strangers after this",
         "number": 4,
         "category": "Night Lights",
         "description": "by Perception3"
@@ -57,7 +57,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8482396, 1.2967721]
+        "coordinates": [103.8484346, 1.2969499]
       },
       "properties": {
         "name": "Steps (2022)",
@@ -70,7 +70,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8476851, 1.2958068]
+        "coordinates": [103.848338, 1.2940226]
       },
       "properties": {
         "name": "tobyato bird pitstop",
@@ -83,7 +83,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8462601, 1.2966583]
+        "coordinates": [103.84634363846436, 1.2973057900933445]
       },
       "properties": {
         "name": "Tunnel Graffiti",
@@ -96,7 +96,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.846134, 1.2967857]
+        "coordinates": [103.84635, 1.29728]
       },
       "properties": {
         "name": "Under My Tree Roof",
@@ -109,7 +109,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8500485, 1.2962646]
+        "coordinates": [103.8498592, 1.2966847]
       },
       "properties": {
         "name": "Fècundus",
@@ -122,10 +122,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8525225, 1.2985175]
+        "coordinates": [103.8522121, 1.2986359]
       },
       "properties": {
-        "name": "NOCTURNE:\nConversations",
+        "name": "NOCTURNE: Conversations",
         "number": 10,
         "category": "Night Lights",
         "description": "with Waterloo\nby Nhawfal Juma'at"
@@ -135,10 +135,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8526045, 1.299964]
+        "coordinates": [103.8527945, 1.299873]
       },
       "properties": {
-        "name": "Celebration\nof Life+Style",
+        "name": "Celebration of Life+Style",
         "number": 11,
         "category": "Night Lights",
         "description": "by Justin Lee"
@@ -148,7 +148,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8531633, 1.2971342]
+        "coordinates": [103.8534751, 1.2971691]
       },
       "properties": {
         "name": "City of Books",
@@ -159,7 +159,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.8489784, 1.29631] },
+      "geometry": { "type": "Point", "coordinates": [103.8489653, 1.2964849] },
       "properties": {
         "name": "#SGNIGHTFEST",
         "number": 13,
@@ -171,7 +171,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8497149, 1.2948571]
+        "coordinates": [103.84941555541921, 1.2942113254425667]
       },
       "properties": {
         "name": "PALIMPSEST",
@@ -184,7 +184,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8535933, 1.2984705]
+        "coordinates": [103.8534825, 1.2985993]
       },
       "properties": {
         "name": "TERRARIUM",
@@ -197,10 +197,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8512232, 1.2930146]
+        "coordinates": [103.85146134510529, 1.2931007069697908]
       },
       "properties": {
-        "name": "Jazz'in @ Capitol\nSingapore",
+        "name": "Jazz'in @ Capitol Singapore",
         "number": 16,
         "category": "Performances"
       }
@@ -209,10 +209,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8502811, 1.2965683]
+        "coordinates": [103.85012618658565, 1.2972116857857658]
       },
       "properties": {
-        "name": "Groovy Town\n@ SMU",
+        "name": "Groovy Town @ SMU",
         "number": 17,
         "category": "Performances"
       }
@@ -221,10 +221,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8518323, 1.2989236]
+        "coordinates": [103.85206874416602, 1.2991596780412606]
       },
       "properties": {
-        "name": "Discoloo\nCentre",
+        "name": "Discoloo Centre",
         "number": 18,
         "category": "Performances"
       }
@@ -233,10 +233,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8502854, 1.2963223]
+        "coordinates": [103.84975139659664, 1.2970458637863027]
       },
       "properties": {
-        "name": "Yesterday\nOnce More:\nQueen Street",
+        "name": "Yesterday Once More: Queen Street",
         "number": 19,
         "category": "Performances"
       }
@@ -245,19 +245,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8492789, 1.2939475]
+        "coordinates": [103.8496037, 1.2941195]
       },
       "properties": {
-        "name": "Armenian\nStreet Party",
+        "name": "Armenian Street Party",
         "number": 20,
         "category": "Performances"
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.847963, 1.298448] },
+      "geometry": { "type": "Point", "coordinates": [103.8479709, 1.298533] },
       "properties": {
-        "name": "Cathay Hotel:\nThe Curse of the\nMissing Red Shoe\nby Vertical\nSubmarine",
+        "name": "Cathay Hotel: The Curse of the Missing Red Shoe\nby Vertical Submarine",
         "number": 21,
         "category": "Highlight Act"
       }
@@ -266,7 +266,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8529167, 1.2951109]
+        "coordinates": [103.8522634, 1.2949146]
       },
       "properties": {
         "name": "Through Worlds",
@@ -277,7 +277,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.850203, 1.2946] },
+      "geometry": { "type": "Point", "coordinates": [103.8508489, 1.2945395] },
       "properties": {
         "name": "Glitches of You, The Melting Pot, Madeleine",
         "number": 23,
@@ -289,10 +289,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8483314, 1.2936778]
+        "coordinates": [103.8487387, 1.2933687]
       },
       "properties": {
-        "name": "Midnight Show\nat the Capitol",
+        "name": "Midnight Show at the Capitol",
         "number": 24,
         "category": "Projection Mapping",
         "description": "by MOJOKO"
@@ -302,10 +302,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8488845, 1.2967119]
+        "coordinates": [103.848916, 1.2969214]
       },
       "properties": {
-        "name": "Stories from\nForbidden Hill",
+        "name": "Stories from Forbidden Hill",
         "number": 25,
         "category": "Projection Mapping",
         "description": "by Maxin10sity"
@@ -315,10 +315,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8543082, 1.3006446]
+        "coordinates": [103.85474163788935, 1.3010789848158537]
       },
       "properties": {
-        "name": "Explore SG\nNight Fest with\nTrishaw Uncle",
+        "name": "Explore SG Night Fest with Trishaw Uncle",
         "number": 26,
         "category": "Experiential Programmes"
       }
@@ -327,10 +327,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8538233, 1.3014411]
+        "coordinates": [103.85443737292601, 1.300931837697278]
       },
       "properties": {
-        "name": "SG Night Fest\nFood Tour",
+        "name": "SG Night Fest Food Tour",
         "number": 27,
         "category": "Experiential Programmes"
       }
@@ -339,10 +339,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8492482, 1.2962914]
+        "coordinates": [103.84851, 1.29653]
       },
       "properties": {
-        "name": "After Hours @\nMy Bras Basah\nwith May Hui",
+        "name": "After Hours @ My Bras Basah with May Hui",
         "number": 28,
         "category": "Experiential Programmes"
       }
@@ -351,7 +351,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8492831, 1.2964442]
+        "coordinates": [103.84851, 1.29663]
       },
       "properties": {
         "name": "Heat Of The Night",
@@ -423,10 +423,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.8464467, 1.2981885]
+        "coordinates": [103.84606183448386, 1.2984276823148766]
       },
       "properties": {
-        "name": "After Dark @\nDhoby Ghaut\nGreen",
+        "name": "After Dark @ Dhoby Ghaut Green",
         "category": "Festival Villages"
       }
     },
