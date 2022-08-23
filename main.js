@@ -262,7 +262,7 @@ map.on('load', () => {
           )
           .join('')}
         <footer>
-          <p>Warning: Data here may not be accurate, scraped from the <a href="https://www.nightfestival.gov.sg/-/media/Snf2022/SNF2022FestivalMap.pdf">Map PDF</a>. Latest accurate info from <a href="https://www.nightfestival.gov.sg/">nightfestival.gov.sg</a></p>
+          <p>Warning: Data here may not be accurate, scraped from the <a href="https://www.nightfestival.gov.sg/-/media/Snf2022/SNF2022FestivalMap.pdf" target="_blank">Map PDF</a>. Latest accurate info from <a href="https://www.nightfestival.gov.sg/" target="_blank">nightfestival.gov.sg</a>. <a href="https://t.me/cheeaun" target="_blank">Feedback</a> welcomed.</p>
           </footer>
       `;
 
