@@ -77,7 +77,7 @@ map.on('load', () => {
     type: 'circle',
     source: 'data',
     layout: {
-      'circle-sort-key': ['get', 'zindex'],
+      'circle-sort-key': ['coalesce', ['get', 'zindex'], 0],
     },
     paint: {
       'circle-radius': [
@@ -128,7 +128,7 @@ map.on('load', () => {
     source: 'data',
     minzoom: 14,
     layout: {
-      'symbol-sort-key': ['get', 'zindex'],
+      'symbol-sort-key': ['coalesce', ['get', 'zindex'], 0],
       'text-allow-overlap': true,
       'text-ignore-placement': true,
       'text-field': [
@@ -169,7 +169,7 @@ map.on('load', () => {
       'text-variable-anchor': ['left', 'right', 'top'],
       'text-radial-offset': 1.3,
       'text-justify': 'auto',
-      'symbol-sort-key': ['get', 'zindex'],
+      'symbol-sort-key': ['coalesce', ['get', 'zindex'], 0],
     },
     paint: {
       'text-halo-color': '#000',
