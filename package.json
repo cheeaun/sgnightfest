@@ -9,7 +9,9 @@
     "fetch-festival-map": "curl https://www.nightfestival.gov.sg/custom/snf2022/api/handlers/SnfMapHandler.ashx -X POST --output public/festival-map.raw.json"
   },
   "devDependencies": {
+    "@vitejs/plugin-legacy": "~2.0.1",
     "autoprefixer": "~10.4.8",
+    "terser": "~5.15.0",
     "vite": "~3.0.9"
   },
   "dependencies": {
