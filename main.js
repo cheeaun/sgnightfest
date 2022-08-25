@@ -34,6 +34,34 @@ const curatedRoutes = [
   { name: '🔍 The Heritage Lover', route: [21, 25, 3, 23, 2, 1, 18, 19, 11] },
 ];
 
+function genListHTML(cat, catData) {
+  const data = catData[cat];
+  const { number } = data[0].properties;
+  const listTag = number ? 'ol' : 'ul';
+  return `
+    <h2 style="color: ${
+      category2colorMapping[data[0].properties.category]
+    }">${cat}</h2>
+    <${listTag} start="${data[0].properties.number}">
+      ${data
+        .map(
+          ({
+            geometry: { coordinates },
+            properties: { name, description, category, number },
+          }) => `
+        <li style="color: ${category2colorMapping[category]}; ${
+            !number ? 'list-style-type: disc' : ''
+          }" data-coords="${coordinates}">
+          <h3>${name}</h3>
+          ${description ? `<p>${description.replace(/\n/g, '<br>')}</p>` : ''}
+        </li>
+      `,
+        )
+        .join('')}
+    </${listTag}>
+  `;
+}
+
 const $app = document.getElementById('app');
 
 const map = new maplibregl.Map({
@@ -50,14 +78,25 @@ const map = new maplibregl.Map({
   minZoom: 12,
 });
 map.addControl(new maplibregl.NavigationControl());
-map.addControl(
-  new maplibregl.GeolocateControl({
-    positionOptions: {
-      enableHighAccuracy: true,
-    },
-    trackUserLocation: true,
-  }),
-);
+
+const geolocateControl = new maplibregl.GeolocateControl({
+  positionOptions: {
+    enableHighAccuracy: true,
+  },
+  trackUserLocation: true,
+});
+map.addControl(geolocateControl);
+geolocateControl.on('trackuserlocationstart', () => {
+  try {
+    localStorage.setItem('trackUserLocation', true);
+  } catch (e) {}
+});
+geolocateControl.on('trackuserlocationend', () => {
+  try {
+    localStorage.removeItem('trackUserLocation');
+  } catch (e) {}
+});
+
 map.addControl(
   new maplibregl.AttributionControl({
     compact: true,
@@ -189,33 +228,11 @@ map.on('load', () => {
     },
   });
 
-  function genListHTML(cat, catData) {
-    const data = catData[cat];
-    const { number } = data[0].properties;
-    const listTag = number ? 'ol' : 'ul';
-    return `
-      <h2 style="color: ${
-        category2colorMapping[data[0].properties.category]
-      }">${cat}</h2>
-      <${listTag} start="${data[0].properties.number}">
-        ${data
-          .map(
-            ({
-              geometry: { coordinates },
-              properties: { name, description, category, number },
-            }) => `
-          <li style="color: ${category2colorMapping[category]}; ${
-              !number ? 'list-style-type: disc' : ''
-            }" data-coords="${coordinates}">
-            <h3>${name}</h3>
-            ${description ? `<p>${description.replace(/\n/g, '<br>')}</p>` : ''}
-          </li>
-        `,
-          )
-          .join('')}
-      </${listTag}>
-    `;
-  }
+  try {
+    if (localStorage.getItem('trackUserLocation')) {
+      geolocateControl.trigger();
+    }
+  } catch (e) {}
 
   fetch(dataPath)
     .then((res) => res.json())
