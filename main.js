@@ -279,7 +279,9 @@ map.on('load', () => {
         $app.classList.add('closed');
       });
 
-      map.on('movestart', () => {
+      map.on('movestart', (e) => {
+        // Ignore map move triggered from geolocation
+        if (e.geolocateSource) return;
         $app.classList.add('closed');
       });
       map.on('mousedown', () => {
