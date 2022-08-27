@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "color2k": "~2.0.0",
-    "maplibre-gl": "~2.3.0"
+    "maplibre-gl": "~2.4.0"
   },
   "postcss": {
     "plugins": {
